@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>Account</h1>
+    <label for = "username">Name:</label>
+    <br/>
+    <input
+            id="username"
+            value="Jose"
+            placeholder="Jone Doe"
+            title ="Please type your name"
+    />
+  <br/>
+  <label for="bio">Bio:</label>
+  <br/>
+  <textarea
+          placeholder="example placeholder"
+          id="bio"
+          cols="30"
+          rows="10">Northeastern professor. Teacher WebDev
+
+  </textarea>
+  <br/>
+  <label>Married: </label>
+  <br/>
+  <input id = "married-yes" type="radio" name="married"/>
+  <label for="married-yes">Yes</label>
+  <lable>
+  <input id = "married-no" type="radio" name="married"/>No
+  </lable>
+
+    <br/>
+
+  <label >Martial Status</label>
+    <select>
+        <option value="Married">Married</option>
+        <option value="SINGLE">single</option>
+        <option value=" WIDOW">widow</option>
+
+    </select>
+
+  <br/>
+  <label >Courses Teaching</label>
+  <br/>
+  <label >
+      <input type="checkbox"/>CS4550
+  </label>
+  <br/>
+
+  <label >
+      <input type="checkbox"/>CS5610
+  </label>
+  <br/>
+  <label ><input type="checkbox"/>CS5200</label>
+  <br/>
+  <label ><input type="checkbox"/>CS5600</label>
+  <br/>
+  <label >Email</label>
+  <input type="email"/>
+  <br/>
+  <label>Years Teaching</label>
+  <input type="number" min="1" max="100"/>
+  <br/>
+  <label >Phone</label>
+  <input type="tel"/>
+  <br/>
+  <label >Date of Birth</label>
+  <input type="date" value="2023-02-11"
+         min="2023-01-23"
+
+  />
+  <br/>
+<button>Submit</button>
+<button>Cancel</button>
+
+</body>
+</html>
