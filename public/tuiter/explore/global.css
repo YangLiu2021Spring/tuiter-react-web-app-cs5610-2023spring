@@ -1,0 +1,27 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-bg-color-sub {
+    background-color: rgb(47, 51, 54);
+}
+
+.wd-border-color {
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-text-white {
+    color: white;
+}
+
+.wd-text-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-input-corner {
+    border-radius: 30px;
+}
+
+.wd-text-decoration-remove{
+    text-decoration: none;
+}
