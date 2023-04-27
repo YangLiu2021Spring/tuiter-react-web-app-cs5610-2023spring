@@ -1,0 +1,143 @@
+body {
+    display: grid;
+    grid-template: ". main ." 100% / 16px auto auto;
+}
+
+body div{
+    box-sizing: border-box;
+}
+.wd-main{
+    grid-area: main;
+    border-style: none solid none solid;
+    border-width: 1px;
+    width: fit-content;
+}
+
+.wd-main > div{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.wd-main-head{
+    box-sizing: border-box;
+    padding: 12px 16px;
+    display: grid;
+    grid-template: "main-head-title head-main-more-sign" auto
+                    "main-head-handler ." auto / auto auto;
+    grid-row-gap: 5px;
+}
+
+.wd-main-head-title{
+    grid-area: main-head-title;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-main-head-handler{
+    grid-area: main-head-handler;
+    font-size: 13px;
+}
+
+.wd-main-head-more-sign{
+    grid-area: head-main-more-sign;
+    font-size: 20px;
+    color: rgb(29, 161, 242);
+    justify-self: end;
+}
+
+.wd-post{
+    display: grid;
+    grid-template: "avatar post-header" auto
+                    "avatar post-content" auto
+                    "avatar post-post-main" auto
+                    "avatar post-footer" auto / min-content auto;
+    padding: 12px 16px;
+    grid-gap: 12px;
+}
+
+.wd-post-avatar{
+    grid-area: avatar;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.wd-post-header{
+    grid-area: post-header;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 15px;
+}
+
+.wd-post-header1{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: start;
+    grid-column-gap: 5px;
+}
+
+.wd-post-header2{
+    display: flex;
+    justify-content: end;
+}
+
+.wd-post-author{
+    font-weight: bold;
+}
+
+.wd-post-content{
+    grid-area: post-content;
+    width: 506px;
+    height: fit-content;
+    line-height: 20px;
+}
+
+.wd-post-main{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+.wd-post-img{
+    height: 264px;
+    width: 504px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-post-main-text{
+    width: 506px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 12px;
+}
+
+.wd-post-title{
+    font-weight: bold;
+}
+
+.wd-post-main-link-sign{
+    height: 12px;
+    width: 12px;
+}
+
+.wd-post-footer{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.wd-post-footer img{
+    width: 15px;
+    height: 15px;
+    display: inline;
+    margin-right: 12px;
+}
+
+.wd-post-footer div{
+    font-size: 15px;
+    display: inline;
+}
+
+.wd-post-footer a{
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+}
