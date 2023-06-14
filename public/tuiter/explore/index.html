@@ -2,147 +2,387 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>New Explore</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="global.css">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="../../vendors/bootstrap/css/bootstrap.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+
+<!--    <link rel="stylesheet" href="index.css">-->
+<!--    <link rel="stylesheet" href="global.css">-->
 </head>
-<body class="wd-bg-color-black">
+<!--<body class="wd-bg-color-black">-->
+<body>
+<!--<div class="wd-main wd-border-color">-->
+<!--    <div class="wd-head wd-border-color">-->
+<!--        <div class="wd-search">-->
+<!--            <div class="wd-search-bar wd-bg-color-sub wd-input-corner">-->
+<!--                <img src="../image/search_icon.png" class="wd-search-icon"/>-->
+<!--                <input class="wd-search-input wd-bg-color-sub wd-text-white" placeholder="Search Twitter"/>-->
+<!--            </div>-->
+<!--            <div class="wd-gear">-->
+<!--                <a href="explore-settings.html"><img src="../image/gear.png" class="wd-gear-img"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="wd-navigation wd-border-color">-->
+<!--            <a href="#" class="wd-text-decoration-remove  wd-tab-select">-->
+<!--                <div class="wd-tab">-->
+<!--                    <p>For you</p>-->
+<!--                    <div class="wd-underline wd-underline-show"></div>-->
 
-<div class="wd-main wd-border-color">
-    <div class="wd-head wd-border-color">
-        <div class="wd-search">
-            <div class="wd-search-bar wd-bg-color-sub wd-input-corner">
-                <img src="../image/search_icon.png" class="wd-search-icon"/>
-                <input class="wd-search-input wd-bg-color-sub wd-text-white" placeholder="Search Twitter"/>
-            </div>
-            <div class="wd-gear">
-                <a href="explore-settings.html"><img src="../image/gear.png" class="wd-gear-img"></a>
-            </div>
-        </div>
-        <div class="wd-navigation wd-border-color">
-            <a href="#" class="wd-text-decoration-remove  wd-tab-select">
-                <div class="wd-tab">
-                    <p>For you</p>
-                    <div class="wd-underline wd-underline-show"></div>
-
-                </div>
-            </a>
-            <a href="#" class="wd-text-decoration-remove">
-                <div class="wd-tab">
-                    <p>Trending</p>
-                    <div class="wd-underline"></div>
-                </div>
-            </a>
-            <a href="#" class="wd-text-decoration-remove">
-                <div class="wd-tab">
-                    <p>COVID-19</p>
-                    <div class="wd-underline"></div>
-                </div>
-            </a>
-            <a href="#" class="wd-text-decoration-remove">
-                <div class="wd-tab">
-                    <p>News</p>
-                    <div class="wd-underline"></div>
-                </div>
-            </a>
-            <a href="#" class="wd-text-decoration-remove">
-                <div class="wd-tab">
-                    <p>Sports</p>
-                    <div class="wd-underline"></div>
-                </div>
-            </a>
-            <a href="#" class="wd-text-decoration-remove">
-                <div class="wd-tab">
-                    <p>Entertainment</p>
-                    <div class="wd-underline"></div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="wd-separation wd-border-color"></div>
-    <div class="wd-trending wd-border-color">
-        <div class="wd-trending-topic wd-text-gray">
-            Trending in Science
-        </div>
-        <div class="wd-more-sign wd-text-gray">
-            ...
-        </div>
-        <div class="wd-trending-title wd-text-white">
-            Lorem ipsum dolor sit amet, consectetur
-        </div>
-        <div class="wd-number-of-tweets wd-text-gray">
-            55.5K Tweets
-        </div>
-    </div>
-    <div class="wd-trending wd-border-color">
-        <div class="wd-trending-topic wd-text-gray">
-            Sports • Trending
-        </div>
-        <div class="wd-more-sign wd-text-gray">
-            ...
-        </div>
-        <div class="wd-trending-title wd-text-white">
-            Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ullam.
-        </div>
-        <div class="wd-number-of-tweets wd-text-gray">
-            5,218 Tweets
-        </div>
-    </div>
-    <div class="wd-news wd-border-color">
-        <div class="wd-news-main">
-            <div class="wd-news-topic-row">
-                <div class="wd-news-topic wd-text-white">The New York Times</div>
-                <img src="../image/verified.png" class="wd-news-icon"/>
-                <div class="wd-news-time wd-text-gray">• Yesterday</div>
-            </div>
-            <div class="wd-news-title wd-text-white">
-                CNN's Cuomo conumdrum: A star anchor with a brother in trouble
-            </div>
-        </div>
-        <img src="../image/cuomo.png" class="wd-news-img"/>
-    </div>
-    <div class="wd-news wd-border-color">
-        <div class="wd-news-main">
-            <div class="wd-news-topic-row">
-                <div class="wd-news-topic wd-text-white">Bloomberg</div>
-                <img src="../image/verified.png" class="wd-news-icon"/>
-                <div class="wd-news-time wd-text-gray">• Yesterday</div>
-            </div>
-            <div class="wd-news-title wd-text-white">
-                Pelosi’s Democrats Head For Showdown This Week on Biden’s Agenda
-            </div>
-        </div>
-        <img src="../image/polosi.png" class="wd-news-img"/>
-    </div>
-    <div class="wd-covid wd-border-color">
-        <div class="wd-covid-main">
-            <div class="wd-covid-topic wd-text-gray">
-                COVID-19 • LIVE
-            </div>
-            <div class="wd-covid-title wd-text-white">
-                COVID-19: News and updates for Massachusetts
-            </div>
-        </div>
-        <img src="../image/ma.png" class="wd-covid-img"/>
-    </div>
-    <div class="wd-covid wd-border-color">
-        <div class="wd-covid-main">
-            <div class="wd-covid-topic wd-text-gray">
-                COVID-19 • LIVE
-            </div>
-            <div class="wd-covid-title wd-text-white">
-                COVID-19: News and updates for Washington
-            </div>
-        </div>
-        <img src="../image/wa.png" class="wd-covid-img"/>
-    </div>
-</div>
-
-
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a href="#" class="wd-text-decoration-remove">-->
+<!--                <div class="wd-tab">-->
+<!--                    <p>Trending</p>-->
+<!--                    <div class="wd-underline"></div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a href="#" class="wd-text-decoration-remove">-->
+<!--                <div class="wd-tab">-->
+<!--                    <p>COVID-19</p>-->
+<!--                    <div class="wd-underline"></div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a href="#" class="wd-text-decoration-remove">-->
+<!--                <div class="wd-tab">-->
+<!--                    <p>News</p>-->
+<!--                    <div class="wd-underline"></div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a href="#" class="wd-text-decoration-remove">-->
+<!--                <div class="wd-tab">-->
+<!--                    <p>Sports</p>-->
+<!--                    <div class="wd-underline"></div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--            <a href="#" class="wd-text-decoration-remove">-->
+<!--                <div class="wd-tab">-->
+<!--                    <p>Entertainment</p>-->
+<!--                    <div class="wd-underline"></div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="wd-separation wd-border-color"></div>-->
+<!--    <div class="wd-trending wd-border-color">-->
+<!--        <div class="wd-trending-topic wd-text-gray">-->
+<!--            Trending in Science-->
+<!--        </div>-->
+<!--        <div class="wd-more-sign wd-text-gray">-->
+<!--            ...-->
+<!--        </div>-->
+<!--        <div class="wd-trending-title wd-text-white">-->
+<!--            Lorem ipsum dolor sit amet, consectetur-->
+<!--        </div>-->
+<!--        <div class="wd-number-of-tweets wd-text-gray">-->
+<!--            55.5K Tweets-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="wd-trending wd-border-color">-->
+<!--        <div class="wd-trending-topic wd-text-gray">-->
+<!--            Sports • Trending-->
+<!--        </div>-->
+<!--        <div class="wd-more-sign wd-text-gray">-->
+<!--            ...-->
+<!--        </div>-->
+<!--        <div class="wd-trending-title wd-text-white">-->
+<!--            Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ullam.-->
+<!--        </div>-->
+<!--        <div class="wd-number-of-tweets wd-text-gray">-->
+<!--            5,218 Tweets-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="wd-news wd-border-color">-->
+<!--        <div class="wd-news-main">-->
+<!--            <div class="wd-news-topic-row">-->
+<!--                <div class="wd-news-topic wd-text-white">The New York Times</div>-->
+<!--                <img src="../image/verified.png" class="wd-news-icon"/>-->
+<!--                <div class="wd-news-time wd-text-gray">• Yesterday</div>-->
+<!--            </div>-->
+<!--            <div class="wd-news-title wd-text-white">-->
+<!--                CNN's Cuomo conumdrum: A star anchor with a brother in trouble-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <img src="../image/cuomo.png" class="wd-news-img"/>-->
+<!--    </div>-->
+<!--    <div class="wd-news wd-border-color">-->
+<!--        <div class="wd-news-main">-->
+<!--            <div class="wd-news-topic-row">-->
+<!--                <div class="wd-news-topic wd-text-white">Bloomberg</div>-->
+<!--                <img src="../image/verified.png" class="wd-news-icon"/>-->
+<!--                <div class="wd-news-time wd-text-gray">• Yesterday</div>-->
+<!--            </div>-->
+<!--            <div class="wd-news-title wd-text-white">-->
+<!--                Pelosi’s Democrats Head For Showdown This Week on Biden’s Agenda-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <img src="../image/polosi.png" class="wd-news-img"/>-->
+<!--    </div>-->
+<!--    <div class="wd-covid wd-border-color">-->
+<!--        <div class="wd-covid-main">-->
+<!--            <div class="wd-covid-topic wd-text-gray">-->
+<!--                COVID-19 • LIVE-->
+<!--            </div>-->
+<!--            <div class="wd-covid-title wd-text-white">-->
+<!--                COVID-19: News and updates for Massachusetts-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <img src="../image/ma.png" class="wd-covid-img"/>-->
+<!--    </div>-->
+<!--    <div class="wd-covid wd-border-color">-->
+<!--        <div class="wd-covid-main">-->
+<!--            <div class="wd-covid-topic wd-text-gray">-->
+<!--                COVID-19 • LIVE-->
+<!--            </div>-->
+<!--            <div class="wd-covid-title wd-text-white">-->
+<!--                COVID-19: News and updates for Washington-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <img src="../image/wa.png" class="wd-covid-img"/>-->
+<!--    </div>-->
+<!--</div>-->
 
 
-</body>
-</html>
+
+
+<!--</body>-->
+<!--</html>-->
+    <div class="container pt-1">
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <div class="list-group">
+
+                    <a href="https://en.wikipedia.org/wiki/Dune_(novel)" class="list-group-item list-group-item-action " aria-current="true">
+                        Home</a>
+                    <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" class="list-group-item list-group-item-action active" >
+                        Explore</a>
+                    <a href="https://en.wikipedia.org/wiki/The_Forever_War" class="list-group-item list-group-item-action">
+                        Notifications</a>
+                    <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(nove l)" class="list-group-item list-group-item-action">
+                        Messages</a>
+                    <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action disabled" tabindex="-1" >
+                        Bookmarks</a>
+                </div>
+                <button class="btn btn-primary w-100 mt-1 rounded-pill">Tuit</button>
+                <br><br><br><br><br>
+            </div>
+            <div class="col-6">
+
+                <div class="row ">
+                    <div class="col-11">
+                        <div class="position-relative">
+                            <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter"/>
+                            <span class="position-absolute wd-search-tuiter">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="col-1 d-flex align-items-center justify-content-end">
+                        <i class="fas fa-cog fa-2x text-primary"></i>
+                    </div>
+                </div>
+
+                <ul class="nav nav-tabs mt-1 mb-1">-am  "a4 bootstrap sp22"
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" >Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" >Entertainment</a>
+                    </li>
+
+                </ul>
+
+                <div class="position-relative">
+                    <img src="../../tuiter/image/Starship.jpg " width=100% />
+                    <h2 class="position-absolute bottom-0 left-0 text-white">SpaceX's Starship</h2>
+                </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-10 ">
+                                    <div class="text-secondary">Web Development</div>
+                                    <div class="fw-bolder"> ReactJs -2h</div>
+                                    <div class="fw-bolder">React.js is a Single Page Application Framework</div>
+                                </div>
+                                <div class="col-2">
+                                    <img src="../../tuiter/image/react.jpg" height= 100px class ="float-end">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-10 ">
+                                    <div class="fw-bolder">JavaScript -2h </div>
+                                    <div class="fw-bolder"> JavaScript is programming language that can run on browsers
+                                        as well as desktops
+                                    </div>
+                                    <div class="text-secondary"> 123k Tuits</div>
+                                </div>
+                                <div class="col-2 ">
+                                    <img src="../../tuiter/image/js.jpg" height= 80px class ="float-end">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-10 ">
+                                    <div class="text-secondary">Web Development</div>
+                                    <div class="fw-bolder">JQuery</div>
+                                    <div class="text-secondary"> 123k Tuits</div>
+
+                                </div>
+                                <div class="col-2 ">
+                                    <img src="../../tuiter/image/jquery.jpg" height= 80px class="float-end">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-10 ">
+                                    <div class="text-secondary">Web Development</div>
+                                    <div class="fw-bolder">NodeJS -2h</div>
+                                    <div class="text-secondary"> 123k Tuits</div>
+                                </div>
+                                <div class="col-2">
+                                    <img src="../../tuiter/image/nodejs.jpg" height= 80px class="float-end">
+                                </div>
+
+                            </div>
+                        </li>
+
+
+
+                    </ul>
+
+
+            </div>
+
+            <div class="col-4">
+
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="fw-bolder">who to follow </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+
+
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../tuiter/image/java.png" height= 50px />
+                            </div>
+                            <div class="col-6">
+                                <div class="fw-bolder">
+                                    Java
+                                    <i class="fas fa-circle-check"></i>
+                                </div>
+                                <div>@Java</div>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-primary w-100 mt-1 rounded-pill float-end height = 80px ">Follow</button>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+
+
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../tuiter/image/relativity.jpg" height= 40px >
+                            </div>
+                            <div class="col-6">
+                                <div class="fw-bolder">Relativity Space
+                                    <i class="fas fa-circle-check"></i>
+                                </div>
+                                <div>@relativityspace</div>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-primary w-100 mt-1 rounded-pill float-end height = 80px ">Follow</button>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+
+
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../tuiter/image/virgin.jpg" height= 40px >
+                            </div>
+                            <div class="col-6">
+                                <div class="fw-bolder">Virgin Galactic</div>
+                                <div>@virgingalactic</div>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-primary w-100 mt-1 rounded-pill float-end height = 80px ">Follow</button>
+                            </div>
+
+                        </div>
+                    </li>
+
+
+
+                    <li class="list-group-item">
+
+
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../tuiter/image/nasa.jpg" height= 40px >
+                            </div>
+                            <div class="col-6">
+                                <div class="fw-bolder">Nasa</div>
+                                <div>@Nasa</div>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-primary w-100 mt-1 rounded-pill float-end height = 100px ">Follow</button>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+
+
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../tuiter/image/tesla.jpg" height= 40px >
+                            </div>
+                            <div class="col-6">
+                                <div class="fw-bolder">Tesla</div>
+                                <div>@Tesla</div>
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-primary w-100 mt-1 rounded-pill float-end height = 100px ">Follow</button>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
 
 </body>
 </html>
